@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
     <description>Spring PetClinic Discovery Server</description>
 
-    <parent>
+    <parent>	
         <groupId>org.springframework.samples</groupId>
         <artifactId>spring-petclinic-microservices</artifactId>
         <version>2.5.1</version>
@@ -54,7 +54,7 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>com.spotify</groupId>
+                        <groupId>io.fabric8</groupId>
                         <artifactId>docker-maven-plugin</artifactId>
                         <version>${docker.plugin.version}</version>
                     </plugin>

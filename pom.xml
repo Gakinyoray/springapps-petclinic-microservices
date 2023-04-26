@@ -37,7 +37,7 @@
         <docker.image.exposed.port>9090</docker.image.exposed.port>
         <docker.image.dockerfile.dir>${basedir}</docker.image.dockerfile.dir>
         <docker.image.dockerize.version>v0.6.1</docker.image.dockerize.version>
-        <docker.plugin.version>1.2.2</docker.plugin.version>
+        <docker.plugin.version>0.42.1</docker.plugin.version>
     </properties>
 
     <dependencyManagement>
@@ -132,7 +132,7 @@
                 <pluginManagement>
                     <plugins>
                         <plugin>
-                            <groupId>com.spotify</groupId>
+                            <groupId>io.fabric8</groupId>
                             <artifactId>docker-maven-plugin</artifactId>
                             <version>${docker.plugin.version}</version>
                             <executions>
